@@ -1,0 +1,27 @@
+# ignore images jupyter notebook
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+# ignore temporary files
+*.tmp
+# ignore log files
+*.log
+# ignore compiled Python files
+*.pyc
+# ignore virtual environment directories
+venv/
+# ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# ignore Jupyter Notebook metadata
+*.ipynb
+# ignore data files
+*.csv
+
+# igonre all cache files
+__pycache__/
+.qodo
+.pytest_cache
+# ignore Jupyter Notebook output files
+*.out
