@@ -1,15 +1,15 @@
 # Core testing frameworks
 pytest==8.4.1
 pytest-base-url==2.1.0
-playwright==0.7.0
+playwright==1.41.1  # Updated to latest stable version
 
 # Jira integration
 jira==3.5.1
-
-# Utilities
 python-dotenv==1.0.0
-anyio==4.9.0
 
-# Optional but recommended
+# Test utilities
 pytest-html==4.1.1  # For HTML test reports
 pytest-xdist==3.5.0  # For parallel test execution
+
+# Required dependencies
+anyio==4.9.0

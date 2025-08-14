@@ -87,9 +87,9 @@ pytest test_login.py -v
 
 1. Create these issues in your Jira project:
 
-   - TEST-1: Test the complete checkout flow
-   - TEST-2: Test successful login flow
-   - TEST-3: Test invalid login error handling
+   - KAN-1: Test the complete checkout flow
+   - KAN-2: Test successful login flow
+   - KAN-3: Test invalid login error handling
 
 2. Test results will automatically:
    - Update corresponding Jira issues
