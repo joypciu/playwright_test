@@ -10,6 +10,7 @@ python-dotenv==1.0.0
 # Test utilities
 pytest-html==4.1.1  # For HTML test reports
 pytest-xdist==3.5.0  # For parallel test execution
+pytest-playwright==0.7.0
 
 # Required dependencies
 anyio==4.9.0
