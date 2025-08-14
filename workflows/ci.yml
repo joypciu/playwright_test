@@ -20,7 +20,7 @@ jobs:
         env:
           JIRA_USERNAME: ${{ secrets.JIRA_USERNAME }}
           JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
-        run: pytest -v --html=report.html --self-contained-html
+        run: pytest
       - name: Upload test report
         uses: actions/upload-artifact@v4
         with:
