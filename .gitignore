@@ -25,3 +25,6 @@ __pycache__/
 .pytest_cache
 # ignore Jupyter Notebook output files
 *.out
+
+# Test reports
+report.html

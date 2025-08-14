@@ -83,6 +83,10 @@ Run specific test file:
 pytest test_login.py -v
 ```
 
+## Test Reports
+
+After running the tests, a detailed HTML report is generated at the root of the project, named `report.html`. Open this file in your web browser to view the test results.
+
 ## Jira Integration
 
 1. Create these issues in your Jira project:

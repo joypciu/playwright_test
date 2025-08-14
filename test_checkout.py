@@ -7,12 +7,6 @@ import os
 pytest.jira_username = os.getenv("JIRA_USERNAME")
 pytest.jira_token = os.getenv("JIRA_TOKEN")
 
-@pytest.fixture(scope="function")
-def page_browser(context):
-    page = context.new_page()
-    yield page
-    page.close()
-
 @jira_issue("KAN-1", "Test the complete checkout flow")
 def test_checkout(page_browser: Page):
     page = page_browser

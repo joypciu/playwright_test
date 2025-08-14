@@ -1,12 +1,6 @@
 import pytest
 from playwright.sync_api import Page, expect
 
-@pytest.fixture(scope="function")
-def page_browser(context):
-    page = context.new_page()
-    yield page
-    page.close()
-
 def test_add_to_cart(page_browser: Page):
     page = page_browser
     # Login first

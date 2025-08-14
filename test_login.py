@@ -20,12 +20,6 @@ def check_jira():
         print("🔄 Tests will continue with limited Jira integration")
     print("="*70 + "\n")
 
-@pytest.fixture(scope="function")
-def page_browser(context):
-    page = context.new_page()
-    yield page
-    page.close()
-
 @jira_issue("KAN-2", "Test successful login flow")
 def test_successful_login(page_browser: Page):
     print("🧪 EXECUTING: Successful Login Test")
